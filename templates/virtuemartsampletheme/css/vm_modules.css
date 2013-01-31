@@ -1,0 +1,208 @@
+/* CSS Document */
+
+
+
+/*----------------------- Featured -----------------------*/
+/*--------------------------------------------------------*/
+
+/*-------------- Main Column --------------*/
+
+
+
+/*----------- Left/Right Column -----------*/
+
+.left .listing-item .normal-price, .right .listing-item .normal-price {padding:0; text-align:left; display:inline;}
+.left .listing-item .special-price, .right .listing-item .special-price {padding:0; text-align:left; display:inline;}
+
+.left .listing-item .with-button, .right .listing-item .with-button {padding:2px 0 2px; float:none; width:auto; background:none; text-align:center;}
+
+.left .listing-item .without-button, .right .listing-item .without-button {padding:10px 0 10px;}
+.left .listing-item .without-button .normal-price, .right .listing-item .without-button .normal-price {text-align:center;}
+.left .listing-item .without-button .special-price, .right .listing-item .without-button .special-price {text-align:center;}
+
+
+.left .listing-item .product-buttons, .right .listing-item .product-buttons {float:none; text-align:center; padding:10px 0 8px; width:100%; overflow:hidden;}
+.left .listing-item .product-buttons br, .right .listing-item .product-buttons br {display:none;}
+.left .listing-item .product-buttons .button.details, .right .listing-item .product-buttons .button.details {float:left;}
+.left .listing-item .product-buttons .button.addtocart, .right .listing-item .product-buttons .button.addtocart {float:right;}
+
+/*------------------- Latest Products --------------------*/
+/*--------------------------------------------------------*/
+
+/*-------------- Main Column --------------*/
+
+
+
+/*----------- Left/Right Column -----------*/
+
+.left .vm-latest, .right .vm-latest {padding:0;}
+
+
+
+/*------------------- Random Products --------------------*/
+/*--------------------------------------------------------*/
+
+/*-------------- Main Column --------------*/
+
+.center .vm-random {padding:0 0 10px;}
+
+/*----------- Left/Right Column -----------*/
+
+.left .vm-random, .right .vm-random {padding:0;}
+
+
+
+/*------------------ Products Scroller -------------------*/
+/*--------------------------------------------------------*/
+
+
+.vm-scroller .listing-separator {width:100%; height:17px; font-size:0px; line-height:0px; overflow:hidden; background:url(../images/li_line.gif) 0 0 repeat-x;}
+.vm-scroller .listing-separator-h {font-size:0px; line-height:0px; overflow:hidden; background:url(../images/line_vertical.gif) 50% 0 repeat-y;}
+.vm-scroller .listing-separator-h div {width:17px; height:17px; font-size:0px; line-height:0px; overflow:hidden;}
+
+/*-------------- Main Column --------------*/
+
+.center .vm-scroller {padding:0 0 10px;}
+
+.center .vm-scroller .listing-bottom 			{background:#FFFFFF url(../images/listing_side.gif) bottom repeat-x; margin:0; padding:0;}
+.center .vm-scroller .listing-top 			{background:url(../images/listing_side.gif) top repeat-x; text-align:center; margin:0; padding:0;}
+.center .vm-scroller .listing-right 			{background:url(../images/listing_side.gif) right repeat-y;}
+.center .vm-scroller .listing-left 			{background:url(../images/listing_side.gif) left repeat-y;}
+.center .vm-scroller .listing-bottom-right 	{background:url(../images/listing_bottom_right.gif) bottom right no-repeat;}
+.center .vm-scroller .listing-bottom-left 	{background:url(../images/listing_bottom_left.gif) bottom left no-repeat;}
+.center .vm-scroller .listing-top-right 		{background:url(../images/listing_top_right.gif) top right no-repeat;}
+.center .vm-scroller .listing-top-left 		{background:url(../images/listing_top_left.gif) top left no-repeat; width:100%;}
+.center .vm-scroller .listing-item-padding 	{padding:15px 1px;}
+
+
+.center .vm-scroller .product-image .listing-bottom 		{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-top 			{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-right 			{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-left 			{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-bottom-right 	{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-bottom-left 	{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-top-right 		{background:none; margin:0; padding:0;}
+.center .vm-scroller .product-image .listing-top-left 		{background:none; margin:0; padding:0; width:100%;}
+.center .vm-scroller .product-image .listing-item-padding 	{margin:0; padding:0;}
+
+/*----------- Left/Right Column -----------*/
+
+.left .vm-scroller .listing-bottom 			{background:#FFFFFF url(../images/box_inner_side.gif) bottom repeat-x; margin:0; padding:0;}
+.left .vm-scroller .listing-top 			{background:url(../images/box_inner_side.gif) top repeat-x; text-align:center; margin:0; padding:0;}
+.left .vm-scroller .listing-right 			{background:url(../images/box_inner_side.gif) right repeat-y;}
+.left .vm-scroller .listing-left 			{background:url(../images/box_inner_side.gif) left repeat-y;}
+.left .vm-scroller .listing-bottom-right 	{background:url(../images/box_inner_bottom_right.gif) bottom right no-repeat;}
+.left .vm-scroller .listing-bottom-left 	{background:url(../images/box_inner_bottom_left.gif) bottom left no-repeat;}
+.left .vm-scroller .listing-top-right 		{background:url(../images/box_inner_top_right.gif) top right no-repeat;}
+.left .vm-scroller .listing-top-left 		{background:url(../images/box_inner_top_left.gif) top left no-repeat; width:100%;}
+.left .vm-scroller .listing-item-padding 	{padding:1px 15px;}
+
+
+.left .vm-scroller .product-image .listing-bottom 		{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-top 			{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-right 			{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-left 			{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-bottom-right 	{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-bottom-left 	{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-top-right 		{background:none; margin:0; padding:0;}
+.left .vm-scroller .product-image .listing-top-left 		{background:none; margin:0; padding:0; width:100%;}
+.left .vm-scroller .product-image .listing-item-padding 	{margin:0; padding:0;}
+
+.right .vm-scroller .product-image .listing-bottom 		{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-top 			{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-right 			{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-left 			{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-bottom-right 	{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-bottom-left 	{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-top-right 		{background:none; margin:0; padding:0;}
+.right .vm-scroller .product-image .listing-top-left 		{background:none; margin:0; padding:0; width:100%;}
+.right .vm-scroller .product-image .listing-item-padding 	{margin:0; padding:0;}
+
+
+
+/*----------------------- Top Ten ------------------------*/
+/*--------------------------------------------------------*/
+
+.module .topten ul {}
+.module .topten ul li {border:none; padding:5px 0 5px 12px;}
+.module .topten ul li span {color:#797979; font-weight:bold; font-family:Tahoma,Geneva,sans-serif; font-size:13px;}
+.module .topten ul li a {color:#76B013; text-decoration:none; background:none; padding:0 0 0 10px; display:inline;}
+.module .topten ul li a:hover {text-decoration:underline; color:#76B013;}
+
+
+
+/*--------------------- Login/Logout ---------------------*/
+/*--------------------------------------------------------*/
+
+.module .form-login {padding:0 8px;}
+.module .form-login {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:15px; color:#2E2E2E;}
+.module .form-login label {color:#2E2E2E; padding:7px 0 5px; display:block; font-size:13px; line-height:15px;}
+
+.module .form-login .remember-button {padding:21px 0 14px; width:100%; overflow:hidden;}
+.module .form-login input#modlgn_remember {margin:0 5px 0 0; padding:0; border:0 none; vertical-align:middle; width:15px; height:15px;}
+.module .form-login label.remember {font-weight:normal; text-transform:none; color:#76B013; padding:4px 0 0; font-size:12px; float:left;}
+.module .form-login label.remember span {text-decoration:underline;}
+.module .form-login .button {margin-top:0; float:right;}
+
+.module .form-login #modlgn_username {border:0; width:157px; height:17px; background:url(../images/login_input_bg.gif) 0 0 no-repeat; padding:1px 3px 2px; margin:0 0 8px 1px;}
+.module .form-login #modlgn_passwd {border:0; width:157px; height:17px; background:url(../images/login_input_bg.gif) 0 0 no-repeat; padding:1px 3px 2px; margin:0 0 0 1px;}
+
+.module .form-login ul {margin:0; padding:15px 0 10px; list-style:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px; color:#2E2E2E;}
+.module .form-login ul li {border:none; padding:3px 0 6px;}
+.module .form-login ul li a {color:#797979; display:inline; background:none; padding:0; margin:0; text-decoration:underline;}
+.module .form-login ul li a:hover {text-decoration:none;}
+
+.module .form-login .naccount {padding:14px 0 25px;}
+.module .form-login .naccount span {color:#76B013; font-size:10px; font-weight:bold; display:block; padding:0 0 5px;}
+.module .form-login .naccount a {color:#797979; display:inline;}
+
+.module .vm-logout {padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; color:#2E2E2E;}
+.module .vm-logout a {color:#2E2E2E; margin:5px 0 0px 13px; display:inline; background:url(../images/bullet1.gif) 3px 9px no-repeat;}
+.module .vm-logout .button {margin-top:15px;}
+
+
+
+
+
+
+/*--------------------- Manufacturers --------------------*/
+/*--------------------------------------------------------*/
+
+.vm-manufacturers {padding:4px 7px 8px 7px;}
+.vm-manufacturers label {color:#464545; padding-bottom:8px; display:block;}
+
+
+
+/*------------------------ Search ------------------------*/
+/*--------------------------------------------------------*/
+
+.search {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; color:#2E2E2E;}
+.search label {font-weight:bold; color:#2E2E2E; text-transform:uppercase; padding:11px 0 7px; display:block; font-size:12px;}
+.search input {margin:2px 0 1px;}
+.search a {color:#2E2E2E; padding:4px 0 0px 13px; display:block; background:url(../images/bullet1.gif) 3px 9px no-repeat;}
+
+
+
+/*---------------------- VirtueMart ----------------------*/
+/*--------------------------------------------------------*/
+
+.vm-tigratree a {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; text-decoration:none; color:#2E2E2E;}
+.vm-tigratree a:hover {text-decoration:none;}
+
+.vm-list-all {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; padding:10px 0;}
+.vm-list-all a {padding:0 0 0 25px; background:url(../images/li_bullet2.gif) 0 0 no-repeat; color:#2E2E2E; text-decoration:none;}
+
+
+.vm-admin {padding:10px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; color:#2E2E2E;}
+.vm-admin a {color:#2E2E2E; padding:4px 0 0px 13px; display:block; background:url(../images/bullet1.gif) 3px 9px no-repeat;}
+
+.vm-account {padding:10px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; color:#2E2E2E;}
+.vm-account a {color:#2E2E2E; padding:4px 0 0px 13px; display:block; background:url(../images/bullet1.gif) 3px 9px no-repeat;}
+
+.vm-download {padding:10px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; color:#2E2E2E;}
+.vm-download a {color:#2E2E2E; padding:4px 0 0px 13px; display:block; background:url(../images/bullet1.gif) 3px 9px no-repeat;}
+
+
+
+
+
